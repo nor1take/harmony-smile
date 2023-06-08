@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:background_element="#F2F3F7"
+    ohos:top_padding="0.5vp"
+    >
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#fff"
+        ohos:orientation="vertical"
+        ohos:padding="24vp"
+        >
+
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:bottom_margin="4vp"
+            ohos:orientation="horizontal">
+
+            <Text
+                ohos:id="$+id:commentReply_newName"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="@UsrName"
+                ohos:text_color="#10AEFF"
+                ohos:text_size="14vp"/>
+
+            <Text
+                ohos:id="$+id:commentReply_notice"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="  回复了你的评论："
+                ohos:text_color="#7b7b7b"
+                ohos:text_size="14vp"/>
+        </DirectionalLayout>
+
+        <Text
+            ohos:id="$+id:commentReply_commentAgainBody"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:bottom_margin="8vp"
+            ohos:multiple_lines="true"
+            ohos:text="评论评论评论评论评论评论评论评论评论评论"
+            ohos:text_size="16vp"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="#F2F3F7"
+            ohos:bottom_margin="4vp"
+            ohos:padding="12vp">
+
+            <Text
+                ohos:id="$+id:commentReply_oldName"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:bottom_margin="4vp"
+                ohos:text="你："
+                ohos:text_color="#7b7b7b"
+                ohos:text_size="12vp"
+                />
+
+            <Text
+                ohos:id="$+id:commentReply_commentBody"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:multiple_lines="true"
+                ohos:text="标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题"
+                ohos:text_color="#7b7b7b"
+                ohos:text_size="14vp"/>
+
+        </DirectionalLayout>
+
+        <Text
+            ohos:id="$+id:commentReply_commentTime"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+
+            ohos:text="07-12 05:34"
+            ohos:text_color="#d2d2d2"
+            ohos:text_size="10vp"
+            />
+
+    </DirectionalLayout>
+</DirectionalLayout>

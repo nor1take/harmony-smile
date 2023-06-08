@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#F2F3F7"
+    ohos:orientation="vertical"
+    >
+
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:alignment="top"
+        ohos:orientation="vertical"
+        >
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:alignment="center"
+            ohos:bottom_margin="12vp"
+            ohos:left_margin="24vp"
+            ohos:orientation="horizontal"
+            ohos:right_margin="24vp"
+            ohos:top_margin="12vp"
+            >
+
+            <Text
+                ohos:id="$+id:goToSearch"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:background_search"
+                ohos:element_left="$media:ic_public_input_search"
+                ohos:padding="12vp"
+                ohos:right_margin="24vp"
+                ohos:weight="1"
+                />
+
+            <Image
+                ohos:id="$+id:menu"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:background_element="$graphic:button_left_top"
+                ohos:image_src="$media:ic_public_drawer_filled"
+                ohos:padding="12vp"
+                />
+        </DirectionalLayout>
+
+        <ListContainer
+            ohos:id="$+id:listContanier"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:rebound_effect="true"
+            ohos:weight="1"
+            />
+    </DirectionalLayout>
+
+</DirectionalLayout>

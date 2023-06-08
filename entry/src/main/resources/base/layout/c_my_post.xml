@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:background_element="#F2F3F7"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:m1_back"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:element_left="$media:ic_public_back"
+        ohos:element_padding="24vp"
+        ohos:margin="24vp"
+        ohos:text="我的发帖"
+        ohos:text_size="24fp"
+        ohos:text_weight="700"
+        />
+
+    <ListContainer
+        ohos:id="$+id:myPost_ListContanier"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:rebound_effect="true"
+        ohos:visibility="hide"/>
+
+    <DirectionalLayout
+        ohos:id="$+id:myPost_notice"
+        ohos:height="match_parent"
+        ohos:width="match_content"
+        ohos:alignment="top|center"
+        ohos:orientation="vertical"
+        ohos:padding="48vp">
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:bottom_margin="48vp"
+            ohos:element_padding="8vp"
+            ohos:text="你还没有发布过帖子哦~"
+            ohos:text_alignment="center"
+            ohos:text_color="#acacac"
+            ohos:text_size="14vp"
+            />
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:element_padding="8vp"
+            ohos:element_top="$media:ic_gallery_create"
+            ohos:multiple_lines="true"
+            ohos:text="Tip：点击主页底部中间的“+”发布帖子"
+            ohos:text_alignment="center"
+            ohos:text_color="#acacac"
+            ohos:text_size="14vp"
+            />
+    </DirectionalLayout>
+
+</DirectionalLayout>

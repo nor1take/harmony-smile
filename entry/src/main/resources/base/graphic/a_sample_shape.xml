@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:shape="rectangle">
+    <!-- ohos:shape="rectangle" 形状-->
+
+    <!--边框-->
+    <stroke
+        ohos:color="blue"
+        ohos:width="3vp"/>、
+
+    <!-- bounds可设置上下左右-->
+    <bounds/>
+
+    <!--圆角 全部/左上角-->
+    <corners
+        ohos:radius="10vp"
+        ohos:left_bottom_x="10vp"
+        />
+
+    <solid
+        ohos:color="black"/>
+    <!--渐变：ohos:colors=""-->
+
+<!--gradient：搭配solid的colors
+    线性：linear_gradient
+    中心向外辐射：radial
+    sweep
+-->
+    <gradient
+        ohos:shader_type="linear_gradient"/>
+</shape>

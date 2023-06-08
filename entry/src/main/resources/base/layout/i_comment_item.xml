@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:background_element="white"
+    ohos:orientation="vertical"
+    ohos:padding="12vp"
+    ohos:top_margin="0.5vp">
+
+    <!-- usrName + more -->
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:alignment="vertical_center"
+        ohos:bottom_margin="8vp"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:id="$+id:commentUsrName"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:element_left="$media:user"
+            ohos:element_padding="4vp"
+            ohos:text="userName"
+            ohos:text_color="#d2d2d2"
+            ohos:text_size="14fp"
+            />
+    </DirectionalLayout>
+
+    <!-- body -->
+    <Text
+        ohos:id="$+id:commentBody"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:bottom_margin="8vp"
+        ohos:left_padding="17vp"
+        ohos:multiple_lines="true"
+        ohos:right_padding="12vp"
+        ohos:text="评论评论评论评论评论评论评论评论评论评论评论评论"
+        ohos:text_color="#7b7b7b"
+        ohos:text_size="16fp"
+        ohos:text_weight="500"
+        />
+
+    <!-- button -->
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:alignment="vertical_center"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:id="$+id:commentTime"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:left_padding="17vp"
+            ohos:text="22-07-09"
+            ohos:text_color="#d2d2d2"
+            ohos:text_size="12fp"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:alignment="right"
+            ohos:orientation="horizontal">
+
+            <DirectionalLayout
+                ohos:id="$+id:likeArea"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:orientation="horizontal">
+
+                <Image
+                    ohos:id="$+id:likeButton"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:image_src="$media:ic_public_thumbsup_filled"
+                    />
+
+                <Text
+                    ohos:id="$+id:likeNum"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="4vp"
+                    ohos:right_margin="8vp"
+                    ohos:text="0"
+                    ohos:text_color="#d2d2d2"
+                    ohos:text_size="12fp"/>
+            </DirectionalLayout>
+
+            <DirectionalLayout
+                ohos:id="$id:commentArea"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:orientation="horizontal"
+                ohos:right_padding="12vp">
+
+                <Image
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:image_src="$media:ic_public_comments_filled"
+                    />
+
+                <Text
+                    ohos:id="$+id:c_commentNum"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:left_margin="4vp"
+                    ohos:text="0"
+                    ohos:text_color="#d2d2d2"
+                    ohos:text_size="12fp"/>
+            </DirectionalLayout>
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+    <ListContainer
+        ohos:top_margin="12vp"
+        ohos:id="$+id:commentAgainList"
+        ohos:height="match_content"
+        ohos:width="match_parent"/>
+
+
+</DirectionalLayout>

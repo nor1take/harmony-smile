@@ -1,0 +1,196 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_registerAbility",
+      "value": "entry_registerAbility"
+    },
+    {
+      "name": "registerability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "registerability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_FirstAbility",
+      "value": "entry_FirstAbility"
+    },
+    {
+      "name": "firstability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "firstability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_SecondAbility",
+      "value": "entry_SecondAbility"
+    },
+    {
+      "name": "secondability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "secondability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_ThirdAbility",
+      "value": "entry_ThirdAbility"
+    },
+    {
+      "name": "thirdability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "thirdability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_my_Ability",
+      "value": "entry_my_Ability"
+    },
+    {
+      "name": "my_ability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "my_ability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_textAbility",
+      "value": "entry_textAbility"
+    },
+    {
+      "name": "textability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "textability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_detail_Ability",
+      "value": "entry_detail_Ability"
+    },
+    {
+      "name": "detail_ability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "detail_ability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_MyPostAbility",
+      "value": "entry_MyPostAbility"
+    },
+    {
+      "name": "mypostability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mypostability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_myFollow_Ability",
+      "value": "entry_myFollow_Ability"
+    },
+    {
+      "name": "myfollow_ability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "myfollow_ability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_Post_Reply_Ability",
+      "value": "entry_Post_Reply_Ability"
+    },
+    {
+      "name": "post_reply_ability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "post_reply_ability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_Comment_Reply_Ability",
+      "value": "entry_Comment_Reply_Ability"
+    },
+    {
+      "name": "comment_reply_ability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "comment_reply_ability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_Recevie_Like_Ability",
+      "value": "entry_Recevie_Like_Ability"
+    },
+    {
+      "name": "recevie_like_ability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "recevie_like_ability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_search_Ability",
+      "value": "entry_search_Ability"
+    },
+    {
+      "name": "search_ability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "search_ability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_MyComment_Ability",
+      "value": "entry_MyComment_Ability"
+    },
+    {
+      "name": "mycomment_ability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mycomment_ability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_help_Ability",
+      "value": "entry_help_Ability"
+    },
+    {
+      "name": "help_ability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "help_ability_HelloWorld",
+      "value": "Hello World"
+    }
+  ]
+}

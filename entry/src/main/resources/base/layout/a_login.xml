@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <Image
+        ohos:id="$+id:imageComponent"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:image_src="$media:ic_public_contacts"
+        ohos:margin="64vp"
+        ohos:scale_mode="zoom_center"
+        />
+
+    <TextField
+        ohos:id="$+id:l_userName"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_text_field"
+        ohos:bottom_margin="12vp"
+        ohos:hint="用户名"
+        ohos:left_margin="24vp"
+        ohos:multiple_lines="false"
+        ohos:padding="24vp"
+        ohos:right_margin="24vp"
+        ohos:text_alignment="left"
+        ohos:text_size="18fp"
+        />
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:background_element="$graphic:background_text_field"
+        ohos:left_margin="24vp"
+        ohos:orientation="horizontal"
+        ohos:right_margin="24vp">
+
+        <TextField
+            ohos:id="$+id:l_passWord"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:background_text_field"
+            ohos:hint="密码"
+            ohos:multiple_lines="false"
+            ohos:padding="24vp"
+            ohos:text_alignment="left"
+            ohos:text_input_type="pattern_password"
+            ohos:text_size="18fp"
+            ohos:weight="5"
+            />
+
+        <Image
+            ohos:id="$+id:l_visible"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:ic_public_password_invisible"
+            ohos:right_margin="12vp"
+            ohos:weight="1"/>
+    </DirectionalLayout>
+
+    <Image
+        ohos:id="$+id:loginButton"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:button_oval"
+        ohos:image_src="$media:right"
+        ohos:margin="64vp"
+        ohos:padding="32vp"
+        />
+
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:alignment="bottom"
+        ohos:margin="24vp"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:id="$+id:registerText"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text="新用户注册"
+            ohos:text_alignment="center"
+            ohos:text_size="12fp"
+            ohos:text_weight="1000"
+            />
+    </DirectionalLayout>
+</DirectionalLayout>

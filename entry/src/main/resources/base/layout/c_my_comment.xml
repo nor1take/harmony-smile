@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:m3_back"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:element_left="$media:ic_public_back"
+        ohos:element_padding="24vp"
+        ohos:margin="24vp"
+        ohos:text="我的评论"
+        ohos:text_size="24fp"
+        ohos:text_weight="700"
+        />
+
+    <TabList
+        ohos:id="$+id:myComment_tabList"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:bottom_padding="12vp"
+        ohos:normal_text_color="#7b7b7b"
+        ohos:selected_text_color="#10aeff"
+        ohos:text_size="18vp"
+        ohos:top_padding="12vp"
+        />
+
+    <DirectionalLayout
+        ohos:id="$+id:myComment_Container"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:weight="1">
+
+    </DirectionalLayout>
+
+    <Text
+        ohos:visibility="hide"
+
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:element_padding="8vp"
+        ohos:text="你还没有评论过其他帖子哦~"
+        ohos:text_alignment="center"
+        ohos:text_color="#acacac"
+        ohos:text_size="14vp"
+        ohos:top_margin="48vp"
+        />
+</DirectionalLayout>

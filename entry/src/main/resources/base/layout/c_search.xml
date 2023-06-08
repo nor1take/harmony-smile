@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:background_element="#F2F3F7"
+    ohos:orientation="vertical"
+    >
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:bottom_margin="12vp"
+        ohos:left_margin="24vp"
+        ohos:orientation="horizontal"
+        ohos:right_margin="24vp"
+        ohos:top_margin="12vp"
+        >
+
+        <Text
+            ohos:id="$+id:search_back"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:element_left="$media:ic_public_back"
+            ohos:right_padding="24vp"
+            ohos:text_size="24fp"
+            ohos:text_weight="700"
+            />
+
+        <TextField
+            ohos:id="$+id:search_input"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:background_search"
+            ohos:element_left="$media:ic_public_input_search"
+            ohos:element_padding="12vp"
+            ohos:hint="搜索"
+            ohos:input_enter_key_type="enter_key_type_search"
+            ohos:multiple_lines="false"
+            ohos:padding="12vp"
+            ohos:text_alignment="left|center"
+            ohos:text_size="14vp"
+            ohos:weight="1"
+            />
+    </DirectionalLayout>
+
+    <ListContainer
+        ohos:id="$+id:searchArea"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:weight="1"/>
+
+    <!--分类-->
+    <DirectionalLayout
+        ohos:id="$+id:classFold"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="#ddd"
+            ohos:element_left="$media:ic_gallery_photoedit_more"
+            ohos:element_padding="12vp"
+            ohos:padding="12vp"
+            ohos:text="分类"
+            ohos:text_size="16vp"
+            ohos:weight="1"
+            />
+
+        <Image
+            ohos:id="$+id:fold_notice"
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:background_element="#ddd"
+            ohos:image_src="$media:up_black"
+            ohos:padding="12vp"/>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:id="$+id:classArea"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:visibility="hide"
+        ohos:weight="1">
+
+        <TabList
+            ohos:id="$+id:classTabList"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:bottom_padding="12vp"
+            ohos:normal_text_color="#7b7b7b"
+            ohos:selected_text_color="#10aeff"
+            ohos:text_size="14vp"
+            ohos:top_padding="12vp"
+            />
+
+        <DirectionalLayout
+            ohos:id="$+id:classContainer"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:weight="1"
+            >
+        </DirectionalLayout>
+    </DirectionalLayout>
+</DirectionalLayout>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:id="$+id:s_tab_content"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:alignment="top"
+        ohos:orientation="vertical"
+        ohos:padding="24vp"
+        >
+
+        <!--发帖-->
+        <Text
+            ohos:id="$+id:back"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+
+            ohos:bottom_margin="24vp"
+            ohos:text="发帖"
+            ohos:text_size="24fp"
+            ohos:text_weight="700"
+            />
+
+        <ScrollView
+            ohos:height="match_parent"
+            ohos:width="match_parent">
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="vertical"
+                ohos:weight="15"
+                >
+                <!--title-->
+                <TextField
+                    ohos:id="$+id:title"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:background_element="$graphic:background_text_field"
+                    ohos:bottom_margin="12vp"
+                    ohos:hint="用一句话描述你的帖子"
+                    ohos:padding="12vp"
+                    ohos:text_alignment="vertical_center"
+                    ohos:text_size="16fp"
+                    ohos:text_weight="700"
+                    />
+
+                <!--body-->
+                <TextField
+                    ohos:id="$+id:body"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:background_element="$graphic:background_text_field"
+                    ohos:bottom_margin="12vp"
+                    ohos:hint="补充你说明的帖子（选填）"
+                    ohos:min_height="150vp"
+                    ohos:padding="12vp"
+                    ohos:text_alignment="left|top"
+                    ohos:text_size="14fp"
+                    />
+
+                <!--tabs-->
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:background_element="$graphic:background_text_field"
+                    ohos:bottom_margin="12vp"
+                    ohos:padding="12vp"
+                    >
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_parent"
+                        ohos:bottom_margin="8vp"
+                        ohos:text="推荐标签"
+                        ohos:text_color="#7b7b7b"
+                        ohos:text_size="16vp"
+                        />
+
+                    <ScrollView
+                        ohos:height="match_content"
+                        ohos:width="match_parent"
+                        ohos:rebound_effect="true"
+                        >
+
+                        <DirectionalLayout
+                            ohos:height="match_content"
+                            ohos:width="match_content"
+                            ohos:alignment="left"
+                            ohos:orientation="horizontal">
+                            <TextField
+                                ohos:id="$+id:tab_5"
+                                ohos:height="match_content"
+                                ohos:width="match_content"
+                                ohos:background_element="$graphic:boder_tab_empty"
+                                ohos:bottom_padding="8vp"
+                                ohos:left_padding="24vp"
+                                ohos:right_margin="8vp"
+                                ohos:right_padding="24vp"
+                                ohos:multiple_lines="false"
+                                ohos:input_enter_key_type="enter_key_type_unspecified"
+                                ohos:hint="自定义"
+                                ohos:text_color="#acacac"
+                                ohos:text_size="12vp"
+                                ohos:top_padding="8vp"
+                                />
+                            <Text
+                                ohos:id="$+id:tab_0"
+                                ohos:height="match_content"
+                                ohos:width="match_content"
+                                ohos:background_element="$graphic:boder_tab_selected"
+                                ohos:bottom_padding="8vp"
+                                ohos:left_padding="24vp"
+                                ohos:right_margin="8vp"
+                                ohos:right_padding="24vp"
+
+                                ohos:text="学习"
+                                ohos:text_color="white"
+                                ohos:text_size="12vp"
+                                ohos:top_padding="8vp"
+                                />
+
+                            <Text
+                                ohos:id="$+id:tab_1"
+                                ohos:height="match_content"
+                                ohos:width="match_content"
+                                ohos:background_element="$graphic:boder_tab_empty"
+                                ohos:bottom_padding="8vp"
+                                ohos:left_padding="24vp"
+                                ohos:right_margin="8vp"
+                                ohos:right_padding="24vp"
+
+                                ohos:text="生活"
+                                ohos:text_color="#acacac"
+                                ohos:text_size="12vp"
+                                ohos:top_padding="8vp"
+                                />
+
+                            <Text
+                                ohos:id="$+id:tab_2"
+                                ohos:height="match_content"
+                                ohos:width="match_content"
+                                ohos:background_element="$graphic:boder_tab_empty"
+                                ohos:bottom_padding="8vp"
+                                ohos:left_padding="24vp"
+                                ohos:right_margin="8vp"
+                                ohos:right_padding="24vp"
+
+                                ohos:text="音乐"
+                                ohos:text_color="#acacac"
+                                ohos:text_size="12vp"
+                                ohos:top_padding="8vp"
+                                />
+
+                            <Text
+                                ohos:id="$+id:tab_3"
+                                ohos:height="match_content"
+                                ohos:width="match_content"
+                                ohos:background_element="$graphic:boder_tab_empty"
+                                ohos:bottom_padding="8vp"
+                                ohos:left_padding="24vp"
+                                ohos:right_margin="8vp"
+                                ohos:right_padding="24vp"
+
+                                ohos:text="影视"
+                                ohos:text_color="#acacac"
+                                ohos:text_size="12vp"
+                                ohos:top_padding="8vp"
+                                />
+
+                            <Text
+                                ohos:id="$+id:tab_4"
+                                ohos:height="match_content"
+                                ohos:width="match_content"
+                                ohos:background_element="$graphic:boder_tab_empty"
+                                ohos:bottom_padding="8vp"
+                                ohos:left_padding="24vp"
+                                ohos:right_margin="8vp"
+                                ohos:right_padding="24vp"
+
+                                ohos:text="问答"
+                                ohos:text_color="#acacac"
+                                ohos:text_size="12vp"
+                                ohos:top_padding="8vp"
+                                />
+                        </DirectionalLayout>
+                    </ScrollView>
+
+                </DirectionalLayout>
+
+                <!--switch-->
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:alignment="vertical_center"
+                    ohos:background_element="$graphic:background_text_field"
+                    ohos:bottom_margin="12vp"
+                    ohos:orientation="horizontal"
+                    ohos:padding="12vp"
+                    >
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+
+                        ohos:layout_alignment="left|center"
+                        ohos:text="匿名发布"
+                        ohos:text_color="#7b7b7b"
+                        ohos:text_size="16vp"
+                        ohos:weight="8"
+                        />
+
+                    <Switch
+                        ohos:id="$+id:btn_switch"
+                        ohos:height="30vp"
+                        ohos:width="60vp"
+                        ohos:focus_border_radius="80vp"
+                        ohos:layout_alignment="center"
+                        ohos:thumb_element="$graphic:switch_thumb_state_element"
+                        ohos:track_element="$graphic:switch_track_state_element"
+                        ohos:weight="2"
+                        />
+                </DirectionalLayout>
+
+                <Image
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:background_element="$graphic:image_add"
+                    ohos:bottom_margin="48vp"
+                    ohos:image_src="$media:ic_public_add"
+                    ohos:padding="36vp"
+                    />
+
+                <Button
+                    ohos:id="$+id:button_send"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:background_element="$graphic:button_rectangle"
+                    ohos:layout_alignment="center"
+                    ohos:left_padding="56vp"
+                    ohos:padding="8vp"
+                    ohos:right_padding="56vp"
+                    ohos:text="发布"
+                    ohos:text_color="white"
+                    ohos:text_size="16fp"
+                    />
+            </DirectionalLayout>
+
+        </ScrollView>
+
+
+    </DirectionalLayout>
+
+
+</DirectionalLayout>

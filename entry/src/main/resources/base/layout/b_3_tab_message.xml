@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:id="$+id:s_tab_content"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:alignment="top"
+        ohos:orientation="vertical"
+        ohos:padding="24vp"
+        >
+
+        <Text
+            ohos:id="$+id:back"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+
+            ohos:bottom_margin="24vp"
+            ohos:text="消息"
+            ohos:text_size="24fp"
+            ohos:text_weight="700"
+            />
+
+        <Text
+            ohos:id="$+id:post_reply"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:background_options"
+
+            ohos:bottom_margin="1vp"
+            ohos:element_left="$media:post_comment"
+            ohos:element_padding="24vp"
+            ohos:padding="24vp"
+            ohos:text="帖子回复"
+            ohos:weight="1"
+            ohos:text_size="18vp"/>
+
+        <Text
+            ohos:id="$+id:comment_reply"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:background_options"
+            ohos:bottom_margin="1vp"
+            ohos:element_left="$media:commentAgain"
+            ohos:element_padding="24vp"
+            ohos:padding="24vp"
+            ohos:weight="1"
+            ohos:text="评论回复"
+            ohos:text_size="18vp"/>
+
+        <Text
+            ohos:id="$+id:recevie_like"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:background_options"
+            ohos:weight="1"
+            ohos:element_left="$media:recevie_like"
+            ohos:element_padding="24vp"
+            ohos:padding="24vp"
+            ohos:text="收到的赞"
+            ohos:text_color="#FA5151"
+            ohos:text_size="18vp"/>
+    </DirectionalLayout>
+</DirectionalLayout>

@@ -1,0 +1,186 @@
+{
+  "app": {
+    "bundleName": "com.example.project220704",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.project220704",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.project220704.login_Ability",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "metaData": {
+      "customizeData": [
+        {
+          "name": "hwc-theme",
+          "extra": "",
+          "value": "androidhwext:style/Theme.Emui.Light.NoTitleBar"
+        },
+        {
+          "name": "hwc-theme",
+          "extra": "",
+          "value": "androidhwext:style/Theme.Emui.Light.NoActionBar"
+        }
+      ]
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.example.project220704.login_Ability",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.project220704.register_Ability",
+        "icon": "$media:icon",
+        "description": "$string:registerability_description",
+        "label": "$string:entry_registerAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.project220704.tab_post_show_Ability",
+        "icon": "$media:icon",
+        "description": "$string:firstability_description",
+        "label": "$string:entry_FirstAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.project220704.tab_add_Ability",
+        "icon": "$media:icon",
+        "description": "$string:secondability_description",
+        "label": "$string:entry_SecondAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.project220704.tabs_Ability",
+        "icon": "$media:icon",
+        "description": "$string:thirdability_description",
+        "label": "$string:entry_ThirdAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.project220704.my_Ability",
+        "icon": "$media:icon",
+        "description": "$string:my_ability_description",
+        "label": "$string:entry_my_Ability",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.project220704.detail_Ability",
+        "icon": "$media:icon",
+        "description": "$string:detail_ability_description",
+        "label": "$string:entry_detail_Ability",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.project220704.MyPost_Ability",
+        "icon": "$media:icon",
+        "description": "$string:mypostability_description",
+        "label": "$string:entry_MyPostAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.project220704.MyFollow_Ability",
+        "icon": "$media:icon",
+        "description": "$string:myfollow_ability_description",
+        "label": "$string:entry_myFollow_Ability",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.project220704.Post_Reply_Ability",
+        "icon": "$media:icon",
+        "description": "$string:post_reply_ability_description",
+        "label": "$string:entry_Post_Reply_Ability",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.project220704.Comment_Reply_Ability",
+        "icon": "$media:icon",
+        "description": "$string:comment_reply_ability_description",
+        "label": "$string:entry_Comment_Reply_Ability",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.project220704.Receive_Like_Ability",
+        "icon": "$media:icon",
+        "description": "$string:recevie_like_ability_description",
+        "label": "$string:entry_Recevie_Like_Ability",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.project220704.search_Ability",
+        "icon": "$media:icon",
+        "description": "$string:search_ability_description",
+        "label": "$string:entry_search_Ability",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.project220704.MyComment_Ability",
+        "icon": "$media:icon",
+        "description": "$string:mycomment_ability_description",
+        "label": "$string:entry_MyComment_Ability",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.project220704.help_Ability",
+        "icon": "$media:icon",
+        "description": "$string:help_ability_description",
+        "label": "$string:entry_help_Ability",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

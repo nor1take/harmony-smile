@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:commentReply_back"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:element_left="$media:ic_public_back"
+        ohos:element_padding="24vp"
+        ohos:margin="24vp"
+        ohos:text="评论回复"
+        ohos:text_size="24fp"
+        ohos:text_weight="700"
+        />
+
+    <ListContainer
+        ohos:id="$+id:commentReply_listContainer"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:rebound_effect="true"
+        ohos:weight="1"/>
+
+</DirectionalLayout>

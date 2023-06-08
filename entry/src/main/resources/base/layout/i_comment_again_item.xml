@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:background_element="#F2F3F7"
+    ohos:bottom_margin="1vp"
+    ohos:left_margin="12vp"
+    ohos:orientation="vertical"
+    ohos:padding="12vp"
+    ohos:right_margin="12vp">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:id="$+id:newName"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:bottom_margin="4vp"
+            ohos:element_left="$media:user_blue"
+            ohos:element_padding="4vp"
+            ohos:element_right="$media:reply"
+            ohos:text="newName"
+            ohos:text_color="#10AEFF"
+            ohos:text_size="12fp"
+            ohos:text_weight="500"
+            />
+
+        <Text
+            ohos:id="$+id:oldName"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:bottom_margin="4vp"
+            ohos:left_margin="4vp"
+            ohos:text="oldName"
+            ohos:text_color="#10AEFF"
+            ohos:text_size="12fp"
+            ohos:text_weight="500"
+            />
+    </DirectionalLayout>
+
+    <Text
+        ohos:id="$+id:commentAgainBody"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:bottom_margin="4vp"
+        ohos:left_padding="13vp"
+        ohos:multiple_lines="true"
+        ohos:right_padding="12vp"
+        ohos:text="评论评论评论评论评论评论评论评论评论评论评论评论评论评论评论"
+        ohos:text_color="#7b7b7b"
+        ohos:text_size="14fp"
+        />
+
+    <Text
+        ohos:id="$+id:commentAgainTime"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:left_padding="13vp"
+        ohos:text="05:45"
+        ohos:text_color="#d2d2d2"
+        ohos:text_size="10vp"/>
+</DirectionalLayout>

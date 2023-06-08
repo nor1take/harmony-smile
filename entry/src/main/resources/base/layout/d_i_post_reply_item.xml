@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:background_element="#F2F3F7"
+    ohos:top_padding="0.5vp"
+    >
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:background_element="#fff"
+        ohos:orientation="vertical"
+        ohos:padding="24vp">
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:bottom_margin="4vp"
+            ohos:orientation="horizontal">
+
+            <Text
+                ohos:id="$+id:postReply_newName"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="@UsrName"
+                ohos:text_color="#10AEFF"
+                ohos:text_size="14vp"/>
+
+            <Text
+                ohos:id="$+id:postReply_notice"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="  评论了你的发布帖子："
+                ohos:text_color="#7b7b7b"
+                ohos:text_size="14vp"/>
+        </DirectionalLayout>
+
+        <Text
+            ohos:id="$+id:postReply_commentBody"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:bottom_margin="8vp"
+            ohos:multiple_lines="true"
+            ohos:text="评论评论评论评论评论评论评论评论评论评论"
+            ohos:text_size="16vp"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="#F2F3F7"
+            ohos:bottom_margin="4vp"
+            ohos:padding="12vp">
+
+            <Text
+                ohos:id="$+id:postReply_postTitle"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:bottom_margin="12vp"
+                ohos:multiple_lines="true"
+                ohos:text="标题标题标题标题标题标题标题标题标题标题标题标题标题标题"
+                ohos:text_color="#7b7b7b"
+                ohos:text_size="14vp"
+                ohos:text_weight="500"/>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:orientation="horizontal">
+
+                <Text
+                    ohos:id="$+id:postReply_post_view"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:element_left="$media:view"
+                    ohos:element_padding="4vp"
+                    ohos:right_margin="12vp"
+                    ohos:text="0"
+                    ohos:text_alignment="center"
+                    ohos:text_color="#d2d2d2"
+                    ohos:text_size="10vp"/>
+
+
+                <Text
+                    ohos:id="$+id:postReply_post_commentNum"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:element_left="$media:comment"
+                    ohos:element_padding="4vp"
+                    ohos:right_margin="12vp"
+                    ohos:text="0"
+                    ohos:text_alignment="center"
+                    ohos:text_color="#d2d2d2"
+                    ohos:text_size="10vp"
+                    />
+
+                <Text
+                    ohos:id="$+id:postReply_post_followNum"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:element_left="$media:follow"
+                    ohos:element_padding="4vp"
+                    ohos:right_margin="12vp"
+                    ohos:text="0"
+                    ohos:text_alignment="center"
+                    ohos:text_color="#d2d2d2"
+                    ohos:text_size="10vp"/>
+
+            </DirectionalLayout>
+
+        </DirectionalLayout>
+
+        <Text
+            ohos:id="$+id:postReply_commentTime"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text="07-12 05:34"
+            ohos:text_color="#d2d2d2"
+            ohos:text_size="10vp"
+            />
+
+    </DirectionalLayout>
+</DirectionalLayout>

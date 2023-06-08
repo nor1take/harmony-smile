@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:background_element="#F2F3F7"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:help_back"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:element_left="$media:ic_public_back"
+        ohos:element_padding="24vp"
+        ohos:margin="24vp"
+        ohos:text="使用帮助"
+        ohos:text_size="24fp"
+        ohos:text_weight="700"
+        />
+
+
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:weight="1"
+        >
+
+        <TabList
+            ohos:id="$+id:help_TabList"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:bottom_padding="12vp"
+            ohos:normal_text_color="#7b7b7b"
+            ohos:orientation="horizontal"
+            ohos:selected_text_color="#10aeff"
+            ohos:text_size="14vp"
+            />
+
+        <DirectionalLayout
+            ohos:id="$+id:help_Container"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:weight="1"
+            >
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+</DirectionalLayout>

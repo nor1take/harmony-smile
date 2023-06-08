@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical"
+    >
+
+    <Text
+        ohos:id="$+id:back"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:element_left="$media:ic_public_back"
+        ohos:margin="24vp"
+        ohos:text="注册"
+        ohos:element_padding="24vp"
+        ohos:text_size="24fp"
+        ohos:text_weight="700"
+        />
+
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:alignment="left"
+        ohos:margin="24vp"
+        ohos:orientation="vertical"
+        >
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:bottom_margin="8vp"
+            ohos:text="设置用户名"
+            ohos:text_size="20fp"
+            ohos:text_weight="500"
+            />
+
+        <TextField
+            ohos:id="$+id:userName"
+            ohos:height="70vp"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:background_text_field"
+            ohos:bottom_margin="32vp"
+            ohos:hint="在此处输入用户名"
+            ohos:left_padding="24vp"
+            ohos:multiple_lines="false"
+            ohos:text_alignment="vertical_center"
+            ohos:text_size="18fp"
+            />
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:bottom_margin="8vp"
+            ohos:text="设置密码"
+            ohos:text_size="20fp"
+            ohos:text_weight="500"
+            />
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:alignment="center"
+            ohos:background_element="$graphic:background_text_field"
+            ohos:orientation="horizontal">
+
+            <TextField
+                ohos:id="$+id:passWord"
+                ohos:height="70vp"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:background_text_field"
+                ohos:hint="在此处输入密码"
+                ohos:left_padding="24vp"
+                ohos:multiple_lines="false"
+                ohos:text_alignment="vertical_center"
+                ohos:text_input_type="pattern_password"
+                ohos:text_size="18fp"
+
+                ohos:weight="5"
+                />
+
+            <Image
+                ohos:id="$+id:visible"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:image_src="$media:ic_public_password_invisible"
+                ohos:right_margin="12vp"
+                ohos:weight="1"/>
+        </DirectionalLayout>
+
+        <Image
+            ohos:id="$+id:button_regist"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:background_element="$graphic:button_oval"
+            ohos:image_src="$media:ic_public_ok_filled"
+            ohos:layout_alignment="center"
+            ohos:margin="64vp"
+            ohos:padding="32vp"
+            ohos:scale_mode="zoom_center"
+            />
+    </DirectionalLayout>
+</DirectionalLayout>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:background_element="$graphic:background_post"
+    ohos:bottom_margin="12vp"
+    ohos:left_margin="24vp"
+    ohos:orientation="vertical"
+    ohos:padding="24vp"
+    ohos:right_margin="24vp"
+    >
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:alignment="vertical_center"
+        ohos:bottom_margin="8vp"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:id="$+id:post_tab"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:background_element="$graphic:background_commentnum"
+            ohos:left_padding="12vp"
+            ohos:padding="4vp"
+            ohos:right_padding="12vp"
+            ohos:text="标签"
+            ohos:text_color="white"
+            ohos:text_size="12vp"
+            ohos:text_weight="1000"/>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:alignment="right|center"
+            ohos:orientation="horizontal">
+
+            <Text
+                ohos:id="$+id:post_poster"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:element_left="$media:user"
+                ohos:element_padding="4vp"
+                ohos:text="匿名用户"
+                ohos:text_alignment="center"
+                ohos:text_color="#d2d2d2"
+                ohos:text_size="10vp"
+                />
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:bottom_margin="8vp"
+        ohos:orientation="horizontal"
+        >
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:orientation="vertical"
+            ohos:weight="3"
+            >
+
+            <Text
+                ohos:id="$+id:post_title"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:bottom_margin="2vp"
+                ohos:multiple_lines="true"
+                ohos:text="标题标题标题标题？"
+                ohos:text_size="16vp"
+                ohos:text_weight="700"/>
+
+            <Text
+                ohos:id="$+id:post_body"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:multiple_lines="true"
+                ohos:text="正文正文正文正文正文正文正文正文正文正文"
+                ohos:text_color="#7b7b7b"
+                ohos:text_size="14vp"
+                ohos:text_weight="500"/>
+        </DirectionalLayout>
+
+        <Image
+            ohos:id="$+id:post_image"
+            ohos:height="50vp"
+            ohos:width="50vp"
+            ohos:image_src="$media:icon"
+            ohos:left_margin="8vp"
+            ohos:scale_mode="zoom_center"
+            ohos:visibility="hide"
+            ohos:weight="1"
+            />
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:alignment="vertical_center"
+        ohos:orientation="horizontal"
+        >
+
+        <Text
+            ohos:id="$+id:post_time"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:right_margin="12vp"
+            ohos:text="mm-dd hh:mm"
+            ohos:text_color="#d2d2d2"
+            ohos:text_size="12vp"/>
+
+        <Text
+            ohos:id="$+id:post_view"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:element_left="$media:view"
+            ohos:element_padding="4vp"
+            ohos:right_margin="12vp"
+            ohos:text="0"
+            ohos:text_alignment="center"
+            ohos:text_color="#d2d2d2"
+            ohos:text_size="10vp"/>
+
+
+        <Text
+            ohos:id="$+id:post_commentNum"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:element_left="$media:comment"
+            ohos:element_padding="4vp"
+            ohos:right_margin="12vp"
+            ohos:text="0"
+            ohos:text_alignment="center"
+            ohos:text_color="#d2d2d2"
+            ohos:text_size="10vp"
+            />
+
+        <Text
+            ohos:id="$+id:post_followNum"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:element_left="$media:follow"
+            ohos:element_padding="4vp"
+            ohos:right_margin="12vp"
+            ohos:text="0"
+            ohos:text_alignment="center"
+            ohos:text_color="#d2d2d2"
+            ohos:text_size="10vp"/>
+    </DirectionalLayout>
+</DirectionalLayout>
+
+
+

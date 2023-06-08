@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="horizontal_center"
+    ohos:background_element="#F2F3F7"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:alignment="bottom"
+        >
+
+        <Text
+            ohos:id="$+id:d_back"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:element_left="$media:ic_public_back"
+            ohos:padding="24vp"
+            ohos:text_size="24fp"
+            ohos:text_weight="700"
+            />
+    </DirectionalLayout>
+    <!-- ← -->
+
+    <!-- post + comment -->
+
+    <ScrollView
+        ohos:id="$+id:postArea"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:rebound_effect="true"
+        ohos:weight="1"
+        >
+        <!-- post -->
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="white"
+            ohos:padding="24vp"
+            >
+            <!-- tab + more -->
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:alignment="vertical_center"
+                ohos:bottom_margin="12vp"
+                ohos:orientation="horizontal">
+
+                <Text
+                    ohos:id="$+id:detail_tab"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:background_element="$graphic:background_commentnum"
+                    ohos:left_padding="16vp"
+                    ohos:padding="4vp"
+                    ohos:right_padding="16vp"
+                    ohos:text="标签"
+                    ohos:text_color="white"
+                    ohos:text_size="14vp"
+                    ohos:text_weight="700"/>
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:alignment="right|center"
+                    ohos:orientation="horizontal">
+
+                    <Image
+                        ohos:id="$+id:more_post"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:image_src="$media:ic_public_more_list"
+                        ohos:padding="8vp"/>
+                </DirectionalLayout>
+            </DirectionalLayout>
+
+            <Text
+                ohos:id="$+id:detail_poster"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:bottom_margin="8vp"
+                ohos:element_left="$media:user"
+                ohos:element_padding="4vp"
+                ohos:text="匿名用户"
+                ohos:text_alignment="vertical_center"
+                ohos:text_color="#d2d2d2"
+                ohos:text_size="12vp"
+                />
+
+            <!-- title + body -->
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:alignment="center"
+                ohos:bottom_margin="12vp"
+                ohos:orientation="horizontal"
+                >
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:orientation="vertical"
+                    ohos:weight="3"
+                    >
+
+                    <Text
+                        ohos:id="$+id:detail_title"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:bottom_margin="8vp"
+                        ohos:multiple_lines="true"
+                        ohos:text="标题标题标题标题？"
+                        ohos:text_size="20vp"
+                        ohos:text_weight="700"/>
+
+                    <Text
+                        ohos:id="$+id:detail_body"
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:multiple_lines="true"
+                        ohos:text="正文正文正文正文正文正文正文正文正文正文"
+                        ohos:text_color="#7b7b7b"
+                        ohos:text_size="16vp"
+                        ohos:text_weight="500"/>
+                </DirectionalLayout>
+
+                <Image
+                    ohos:id="$+id:detail_image"
+                    ohos:height="50vp"
+                    ohos:width="50vp"
+                    ohos:image_src="$media:icon"
+                    ohos:left_margin="8vp"
+                    ohos:scale_mode="zoom_center"
+                    ohos:visibility="hide"
+                    ohos:weight="1"
+                    />
+            </DirectionalLayout>
+
+            <!-- details -->
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:alignment="vertical_center"
+                ohos:bottom_margin="24vp"
+                ohos:orientation="horizontal"
+                >
+
+                <Text
+                    ohos:id="$+id:detail_time"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:right_margin="12vp"
+                    ohos:text="mm-dd hh:mm"
+                    ohos:text_color="#d2d2d2"
+                    ohos:text_size="12vp"/>
+
+                <Text
+                    ohos:id="$+id:detail_view"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:element_left="$media:view"
+                    ohos:element_padding="4vp"
+                    ohos:right_margin="12vp"
+                    ohos:text="0"
+                    ohos:text_alignment="center"
+                    ohos:text_color="#d2d2d2"
+                    ohos:text_size="10vp"/>
+
+
+                <Text
+                    ohos:id="$+id:detail_commentNum"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:element_left="$media:comment"
+                    ohos:element_padding="4vp"
+                    ohos:right_margin="12vp"
+                    ohos:text="0"
+                    ohos:text_alignment="center"
+                    ohos:text_color="#d2d2d2"
+                    ohos:text_size="10vp"
+                    />
+
+                <Text
+                    ohos:id="$+id:detail_followNum"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:element_left="$media:follow"
+                    ohos:element_padding="4vp"
+                    ohos:right_margin="12vp"
+                    ohos:text="0"
+                    ohos:text_alignment="center"
+                    ohos:text_color="#d2d2d2"
+                    ohos:text_size="10vp"/>
+            </DirectionalLayout>
+
+            <!-- 关注 -->
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:alignment="center"
+                ohos:background_element="$graphic:button_rectangle"
+                ohos:layout_alignment="center">
+
+                <Button
+                    ohos:id="$+id:button_follow"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:element_left="$media:ic_public_highlightsed"
+                    ohos:element_padding="4vp"
+                    ohos:padding="12vp"
+                    ohos:text="关注帖子"
+                    ohos:text_alignment="center"
+                    ohos:text_color="white"
+                    ohos:text_size="14vp"/>
+            </DirectionalLayout>
+        </DirectionalLayout>
+    </ScrollView>
+
+    <DirectionalLayout
+        ohos:id="$+id:commentFold"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:alignment="vertical_center"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:id="$+id:commentFoldhHint"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:padding="12vp"
+            ohos:text="评论区"
+            ohos:text_color="#acacac"
+            ohos:text_size="16fp"
+            ohos:weight="1"/>
+
+        <Image
+            ohos:id="$+id:c_isFold"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:image_src="$media:up"
+            ohos:right_padding="12vp"/>
+    </DirectionalLayout>
+    <!-- comments -->
+    <DirectionalLayout
+        ohos:id="$+id:commentArea"
+        ohos:height="320vp"
+        ohos:width="match_parent"
+        ohos:background_element="#F2F3F7"
+        ohos:orientation="vertical"
+
+        ohos:visibility="hide"
+        >
+
+        <DirectionalLayout
+            ohos:id="$+id:sortArea"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:alignment="right|center"
+            ohos:orientation="horizontal"
+            ohos:padding="8vp">
+
+            <Image
+                ohos:id="$+id:sortIcon"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:image_src="$media:ic_files_size_drive"
+                ohos:right_margin="4vp"/>
+
+            <Text
+                ohos:id="$+id:sortText"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:text="按赞数"
+                ohos:text_color="#10AEFF"
+                ohos:text_size="12vp"
+                ohos:text_weight="500"/>
+        </DirectionalLayout>
+
+
+        <ListContainer
+            ohos:id="$+id:commentList"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:rebound_effect="true"
+            />
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:orientation="horizontal">
+
+        <TextField
+            ohos:id="$+id:bottom_text_field"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="#ddd"
+            ohos:hint="在这里输入对此帖的评论"
+            ohos:multiple_lines="true"
+            ohos:padding="12vp"
+            ohos:scrollable="true"
+            ohos:text_size="16fp"
+            ohos:weight="1"
+            />
+
+        <Button
+            ohos:id="$+id:button_send"
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:background_element="#10aeff"
+            ohos:left_padding="24vp"
+            ohos:padding="12vp"
+            ohos:right_padding="24vp"
+            ohos:text="发送"
+            ohos:text_alignment="center"
+            ohos:text_color="white"
+            ohos:text_size="14fp"/>
+    </DirectionalLayout>
+</DirectionalLayout>
+
